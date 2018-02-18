@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10.2)
+project(leapyear)
+set(LEAPYEARFILES LeapYear.cpp LeapYear.hpp)
+set(TESTFILES test.cpp)
+add_executable(tests ${TESTFILES} ${LEAPYEARFILES})
